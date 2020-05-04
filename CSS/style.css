@@ -1,0 +1,88 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+body, html {
+  color: #1e90ff;
+  font-size: 16px;
+  line-height: 1.7;
+  margin: 0;
+  height: 100%;
+}
+
+a, a:hover {
+  text-decoration: none;
+  color: #0652DD;
+}
+
+img {
+  min-width: 100%;
+  height: auto;
+}
+
+section {
+  padding: 60px 0;
+}
+
+.container {
+  min-width: 980px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.splash {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0 24px;
+  background-image: url("https://i.postimg.cc/X77NNQ0L/coral-3204592.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+}
+
+.page-intro {
+  margin: auto;
+  text-align: center;
+}
+
+.main-title {
+  margin: 0;
+  font-weight: normal;
+}
+
+.main-subtitle {
+  margin: 12px 0 60px 0;
+  font-weight: normal;
+}
+
+.btn {
+  padding: 18px 24px 18px 24px;
+  font-size: xx-large;
+  background-color: transparent;
+  color: whitesmoke;
+  -webkit-box-shadow: 0 7px black;
+          box-shadow: 0 7px black;
+  letter-spacing: 1px;
+  border-radius: 60px;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.btn:hover {
+  background-color: #0652DD;
+  color: white;
+  border-radius: 60px;
+}
+/*# sourceMappingURL=style.css.map */
