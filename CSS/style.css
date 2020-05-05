@@ -9,11 +9,12 @@
 }
 
 body, html {
-  color: #1e90ff;
+  color: #0652DD;
   font-size: 16px;
   line-height: 1.7;
   margin: 0;
   height: 100%;
+  font-family: "Lobster", cursive;
 }
 
 a, a:hover {
@@ -45,6 +46,7 @@ section {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  color: #ffffff;
   padding: 0 24px;
   background-image: url("https://i.postimg.cc/X77NNQ0L/coral-3204592.jpg");
   background-repeat: no-repeat;
@@ -61,11 +63,16 @@ section {
 .main-title {
   margin: 0;
   font-weight: normal;
+  font-family: "Lobster", cursive;
+  font-size: 100px;
+  text-shadow: 12px 10px 0.5px #0652DD;
 }
 
 .main-subtitle {
   margin: 12px 0 60px 0;
   font-weight: normal;
+  font-family: "Lobster", cursive;
+  color: whi;
 }
 
 .btn {

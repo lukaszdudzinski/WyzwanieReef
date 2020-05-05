@@ -1,7 +1,9 @@
 $color-main: #0652DD;
 $color-background: #1e90ff;
-$color-text: #1e90ff;
-$color-splash: red;
+$color-text: #ffffff;
+$color-splash: #0652DD;
+$font-header: 'Lobster', cursive;
+$font-text: 'Lobster', cursive;
 *{
     box-sizing: border-box;
 }
@@ -9,11 +11,12 @@ $color-splash: red;
     box-shadow: none;
 }
 body, html{
-    color: $color-text;
+    color: $color-splash;
     font-size: 16px;
     line-height: 1.7;
     margin: 0;
     height: 100%;
+    font-family: $font-header;
 }
 a, a:hover{
     text-decoration: none;
@@ -35,6 +38,7 @@ section{
     position: relative;
     display: flex;
     flex-direction: column;
+    color: $color-text ;
     padding: 0 24px;
     background-image: url('https://i.postimg.cc/X77NNQ0L/coral-3204592.jpg');
     background-repeat: no-repeat;
@@ -49,10 +53,15 @@ section{
 .main-title{
     margin: 0;
     font-weight: normal;
+    font-family: $font-header;
+    font-size: 100px;
+    text-shadow: 12px 10px 0.5px #0652DD;//cien za testem
 }
 .main-subtitle{
     margin: 12px 0 60px 0;
     font-weight: normal;
+    font-family: $font-text;
+    color: whi;
 }
 .btn{
     padding: 18px 24px 18px 24px;
