@@ -26,6 +26,7 @@ body, html{
     margin: 0;
     height: 100%;
     font-family: $font-header;
+    background-color: #1B1464;
 }
 a, a:hover{
     text-decoration: none;
@@ -92,7 +93,7 @@ section{
     margin: 0 0 60px 0;
     text-align: center;
     font-size: 50px;
-    text-shadow: 2px 12px 30px black;//cien za testem
+    text-shadow: 2px 12px 6px black;//cien za testem
     // animation-name: animtest;
     // animation-duration: 4s;
     // opacity: 0;
@@ -114,6 +115,8 @@ section{
 }
 .section-intro{
     margin: 36px 0 0 0;
+    font-size: larger;
+    text-shadow: 2px 12px 6px black;//cien za testem
 }
 .features-wrapper{
     display: flex;
@@ -123,6 +126,7 @@ section{
     min-width: 33.333333%;
     text-align: center;
     margin: 24px 0 0 0;
+    background-color: #1B1464;
 }
 .features i{
     width: 100px;
@@ -130,13 +134,76 @@ section{
     line-height: 100px;
     font-size: 100px;
     border-radius: 40px;    
-    //text-shadow: 2px 12px 30px black;//cien za testem
+    text-shadow: 2px 12px 1px black;//cien za testem
     animation-name: animtest;
-    animation-duration: 10s;
-    
-
+    animation-duration: 10s;    
 }
 .feature-title{
     font-size: 50px;
-    text-shadow: 2px 12px 30px black;//cien za testem
+    text-shadow: 2px 12px 6px black;//cien za testem
+}
+.feature-description{
+    font-size: larger;
+    text-shadow: 2px 12px 6px black;//cien za testem
+}
+.statement{
+    background-image: url('https://i.postimg.cc/mgkc3nn6/underwater-photography-of-turtle-2397653.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;    
+    background-attachment: fixed;
+    height: 100%;
+}
+.statement p{
+    padding: 0 250px;
+    margin: 0;
+    font-size: xx-large;
+    text-align: center;
+    color: whitesmoke;
+    text-shadow: 2px 1px 10px black;//cien za testem
+}
+.section.galeria{
+    padding: 60px 0 0 0;
+}
+.galeria-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 72px 0 0 0;
+}
+.galeria-item{
+    position: relative;
+    margin: 0;
+    flex: 0 0 25%;
+    max-width: 25%;
+    text-align:center;
+}
+.galeria-item img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.galeria-item:before {
+    position: absolute;
+    display: none;
+    content: '';
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    opacity: 0.5;
+}
+.galeria-item figcaption{
+    position: absolute;
+    display: none;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: xx-large;
+    color: whitesmoke;
+    text-shadow: 2px 1px 3px black;//cien za testem
+}
+.galeria-item:hover:before, .galeria-item:hover figcaption{
+    display: block;
 }
