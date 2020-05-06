@@ -257,4 +257,23 @@ section {
 .galeria-item:hover:before, .galeria-item:hover figcaption {
   display: block;
 }
+
+.btnr1 {
+  padding: 18px 24px 18px 24px;
+  font-size: xx-large;
+  background-color: transparent;
+  color: whitesmoke;
+  -webkit-box-shadow: 0 7px black;
+          box-shadow: 0 7px black;
+  letter-spacing: 1px;
+  border-radius: 60px;
+  background: rgba(0, 0, 0, 0.5);
+  font-family: 'Lobster', cursive;
+}
+
+.btnr1:hover {
+  background-color: #0652DD;
+  color: white;
+  border-radius: 60px;
+}
 /*# sourceMappingURL=style.css.map */
