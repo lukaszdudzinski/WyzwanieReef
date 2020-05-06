@@ -167,8 +167,10 @@ section {
   text-shadow: 2px 12px 1px black;
   -webkit-animation-name: animtest;
           animation-name: animtest;
-  -webkit-animation-duration: 10s;
-          animation-duration: 10s;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
 }
 
 .feature-title {

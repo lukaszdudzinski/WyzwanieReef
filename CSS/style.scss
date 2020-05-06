@@ -136,7 +136,8 @@ section{
     border-radius: 40px;    
     text-shadow: 2px 12px 1px black;//cien za testem
     animation-name: animtest;
-    animation-duration: 10s;    
+    animation-duration: 5s;  
+    animation-iteration-count: infinite;  
 }
 .feature-title{
     font-size: 50px;
