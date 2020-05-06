@@ -8,6 +8,24 @@
           box-shadow: none;
 }
 
+@-webkit-keyframes animtest {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes animtest {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 body, html {
   color: #0652DD;
   font-size: 16px;
@@ -77,7 +95,7 @@ section {
 
 .btn {
   padding: 18px 24px 18px 24px;
-  font-size: xx-large;
+  font-size: 50px;
   background-color: transparent;
   color: whitesmoke;
   -webkit-box-shadow: 0 7px black;
@@ -91,5 +109,65 @@ section {
   background-color: #0652DD;
   color: white;
   border-radius: 60px;
+}
+
+.section-title {
+  position: relative;
+  margin: 0 0 60px 0;
+  text-align: center;
+  font-size: 50px;
+  text-shadow: 2px 12px 30px black;
+}
+
+.section-title:after {
+  position: absolute;
+  display: block;
+  content: '';
+  width: 100px;
+  height: 2px;
+  background: #EA2027;
+  left: 48%;
+  bottom: -16px;
+  margin: -25px;
+}
+
+.about {
+  background-color: #1B1464;
+}
+
+.section-intro {
+  margin: 36px 0 0 0;
+}
+
+.features-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.features {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 33.333333%;
+          flex: 0 0 33.333333%;
+  min-width: 33.333333%;
+  text-align: center;
+  margin: 24px 0 0 0;
+}
+
+.features i {
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  font-size: 100px;
+  border-radius: 40px;
+  -webkit-animation-name: animtest;
+          animation-name: animtest;
+  -webkit-animation-duration: 10s;
+          animation-duration: 10s;
+}
+
+.feature-title {
+  font-size: 50px;
+  text-shadow: 2px 12px 30px black;
 }
 /*# sourceMappingURL=style.css.map */
