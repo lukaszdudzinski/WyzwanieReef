@@ -44,7 +44,7 @@ a:hover {
 }
 
 img {
-  min-width: 100vh;
+  min-width: 100%;
   height: auto;
 }
 
@@ -52,7 +52,7 @@ section {
   padding: 60px 0;
 }
 
-.conteiner {
+.container {
   min-width: 980px;
   margin: 0 auto;
   padding: 0 20px;
@@ -140,6 +140,7 @@ section {
 }
 
 .section-intro {
+  padding: 15px 100px;
   margin: 36px 0 0 0;
   font-size: larger;
   text-shadow: 2px 12px 6px black;
@@ -287,5 +288,22 @@ section {
   background-color: #0652DD;
   color: white;
   border-radius: 60px;
+}
+
+.footer {
+  background-color: black;
+}
+
+.page-footer .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.page-footer p {
+  margin: 0;
 }
 /*# sourceMappingURL=style.css.map */

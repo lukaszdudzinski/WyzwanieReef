@@ -46,7 +46,7 @@ a:hover {
 }
 
 img {
-    min-width: 100vh; //B zmieniłem zeby poprawic skalowanie
+    min-width: 100%; //B zmieniłem zeby poprawic skalowanie
     height: auto;
 }
 
@@ -54,7 +54,7 @@ section {
     padding: 60px 0;
 }
 
-.conteiner {
+.container {
     min-width: 980px;
     margin: 0 auto;
     padding: 0 20px;
@@ -136,6 +136,7 @@ section {
 }
 
 .section-intro {
+    padding: 15px 100px;
     margin: 36px 0 0 0;
     font-size: larger;
     text-shadow: 2px 12px 6px black; //cien za testem
@@ -268,4 +269,14 @@ section {
     background-color: $color-main;
     color: white;
     border-radius: 60px;
+}
+.footer{
+    background-color:black;
+}
+.page-footer .container{
+    display: flex;
+    justify-content:space-between;
+}
+.page-footer p{
+    margin: 0;
 }
