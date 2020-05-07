@@ -26,7 +26,8 @@
   }
 }
 
-body, html {
+body,
+html {
   color: #0652DD;
   font-size: 16px;
   line-height: 1.7;
@@ -36,13 +37,14 @@ body, html {
   background-color: #1B1464;
 }
 
-a, a:hover {
+a,
+a:hover {
   text-decoration: none;
   color: #0652DD;
 }
 
 img {
-  min-width: 100%;
+  min-width: 100vh;
   height: auto;
 }
 
@@ -50,7 +52,7 @@ section {
   padding: 60px 0;
 }
 
-.container {
+.conteiner {
   min-width: 980px;
   margin: 0 auto;
   padding: 0 20px;
@@ -91,7 +93,7 @@ section {
   margin: 12px 0 60px 0;
   font-weight: normal;
   font-family: "Lobster", cursive;
-  color: whi;
+  color: white;
 }
 
 .btn {
@@ -118,18 +120,19 @@ section {
   text-align: center;
   font-size: 50px;
   text-shadow: 2px 12px 6px black;
+  padding: 0;
 }
 
 .section-title:after {
   position: absolute;
   display: block;
   content: '';
-  width: 100px;
+  width: 50px;
   height: 2px;
   background: #EA2027;
-  left: 48%;
+  left: 50%;
   bottom: -16px;
-  margin: -25px;
+  margin-left: -30px;
 }
 
 .about {
@@ -140,6 +143,7 @@ section {
   margin: 36px 0 0 0;
   font-size: larger;
   text-shadow: 2px 12px 6px black;
+  text-align: center;
 }
 
 .features-wrapper {
@@ -174,11 +178,15 @@ section {
 }
 
 .feature-title {
+  margin: 24px 0 0 0;
+  text-transform: uppercase;
   font-size: 50px;
   text-shadow: 2px 12px 6px black;
 }
 
 .feature-description {
+  margin: 24px 0 0 0;
+  padding: 0 24px;
   font-size: larger;
   text-shadow: 2px 12px 6px black;
 }
@@ -188,13 +196,11 @@ section {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  background-attachment: fixed;
-  height: 100%;
+  height: 100vh;
 }
 
 .statement p {
-  padding: 0 250px;
-  margin: 0;
+  font-family: "Lobster", cursive;
   font-size: xx-large;
   text-align: center;
   color: whitesmoke;
@@ -256,7 +262,8 @@ section {
   text-shadow: 2px 1px 3px black;
 }
 
-.galeria-item:hover:before, .galeria-item:hover figcaption {
+.galeria-item:hover:before,
+.galeria-item:hover figcaption {
   display: block;
 }
 
