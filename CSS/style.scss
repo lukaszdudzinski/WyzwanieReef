@@ -185,13 +185,13 @@ section {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    //background-attachment: fixed;
-    height: 100vh; //B bylo pierwotnie % - jak był % po zmiejszeniu tekst wychodził z obrazu 
+    background-attachment: fixed;
+    height: 100%; //B bylo pierwotnie % - jak był % po zmiejszeniu tekst wychodził z obrazu 
 }
 
 .statement p {
-    //padding: 0 150px;
-    //margin: 0;
+    padding: 0px 50px;
+    margin: 0;
     font-family: $font-header;
     font-size: xx-large;
     text-align: center;

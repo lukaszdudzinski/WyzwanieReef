@@ -196,10 +196,13 @@ section {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  height: 100vh;
+  background-attachment: fixed;
+  height: 100%;
 }
 
 .statement p {
+  padding: 0px 50px;
+  margin: 0;
   font-family: "Lobster", cursive;
   font-size: xx-large;
   text-align: center;
