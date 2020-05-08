@@ -54,11 +54,11 @@ section {
     padding: 60px 0;
 }
 
-.container {
-    min-width: 980px;
-    margin: 0 auto;
-    padding: 0 20px;
-}
+// .container {
+//     min-width: 980px;
+//     margin: 0 auto;
+//     padding: 0 20px;
+// }
 
 .splash {
     position: relative;
@@ -245,7 +245,7 @@ section {
     transform: translateY(-50%);
     font-size: xx-large;
     color: whitesmoke;
-    text-shadow: 2px 1px 3px black; //cien za testem
+    //text-shadow: 2px 1px 3px black; //cien za testem - tu to nic nie daje napis na przycisku - chyba
 }
 
 .galeria-item:hover:before,
@@ -270,13 +270,61 @@ section {
     color: white;
     border-radius: 60px;
 }
-.footer{
-    background-color:black;
+.contact {
+    text-align: center;
 }
-.page-footer .container{
+.social-links {
+    list-style-type: none;
+    padding: 0;
+}
+
+.social-links li {
+    font-size: xx-large;
+    display: inline-block;
+    border: 1p solid;
+    width: 400px;
+    height: 80px;
+    //line-height: 30px;
+    //border-radius: 50px solid $color-main;
+    margin-right: 20px;
+    color: r#0652DD;
+    text-shadow: 2px 12px 6px black; //cien za testem 
+
+}
+
+.social-links li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #0652DD;
+    font-size: xx-large;
+    text-shadow: 2px 12px 6px black; //cien za testem
+}
+
+.social-links li :hover {
+    color: darken(#48dbfb, 20%);
+}
+.social-links li a:hover {
+        font-display: darken(black, 20%);
+}
+
+.footer {
+    background-color: black;
+}
+
+.page-footer .container {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
 }
-.page-footer p{
+
+.page-footer p {
     margin: 0;
+    text-shadow: 2px 12px 6px black; //cien za testem 
 }
+
+
+
+
+
+
+
